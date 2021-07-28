@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.scren{
+    width: 1532px;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menubar{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.dms{
+    font-size: 30px;
+    color: white;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.menu{
+    width: 614px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu > p{
+    color: white;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login{
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 46px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+    background-color: #19B6B6;
+}
+
+.mainmenu{
+    width: 732px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tomenu{
+    width: 732px;
+    height: 54px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.date{
+    width: 732px;
+    height: 58px;
+    color: #FFFFFFB3;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'NanumSquare', sans-serif;
+}
