@@ -5,7 +5,7 @@
 
 .scren{
     width: 1532px;
-    height: 460px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -87,5 +87,36 @@
     color: #FFFFFFB3;
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.meal{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.morning,.lunch,.dinner{
+    width: 219px;
+    height: 316px;
+    border: 1px solid none;
+    background-color: #0c9799;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+    color: white;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.btn > button{
+    width: 150px;
+    height: 50px;
+    margin-right: 2.5rem;
+    border: none;
+    border-radius: 1.5625rem;
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,0.2), 0 5px 6px 0 rgba(0,0,0,0.19);
+    font-size: 1.125rem;
+    color: #19b6b6;
     font-family: 'NanumSquare', sans-serif;
 }
