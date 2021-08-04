@@ -109,7 +109,7 @@ html,body{
     font-family: 'NanumSquare', sans-serif;
 }
 
-.btn > button{
+.btn > input{
     width: 150px;
     height: 50px;
     margin-right: 2.5rem;
@@ -119,4 +119,13 @@ html,body{
     font-size: 1.125rem;
     color: #19b6b6;
     font-family: 'NanumSquare', sans-serif;
+}
+
+.menucss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.25rem;
 }
